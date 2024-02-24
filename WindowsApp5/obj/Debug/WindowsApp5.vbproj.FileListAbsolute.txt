@@ -1,0 +1,17 @@
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.exe.config
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.exe
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.pdb
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.xml
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbprojAssemblyReference.cache
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form1.resources
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form2.resources
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form3.resources
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form4.resources
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form5.resources
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Resources.resources
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbproj.GenerateResource.cache
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbproj.CoreCompileInputs.cache
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.exe
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.xml
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.pdb
+C:\Users\Fe Adornado\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form6.resources
