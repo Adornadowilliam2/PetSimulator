@@ -21,7 +21,7 @@ Follow these steps to get started with Pet Simulator:
 
 Clone the repository to your local machine.
 
-git clone https://github.com/your-username/pet-simulator.git
+git clone [https://github.com/your-username/pet-simulator.git](https://github.com/Adornadowilliam2/PetSimulator.git)
 Install the required dependencies.
 
 npm install
