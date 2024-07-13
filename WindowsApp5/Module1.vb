@@ -5,8 +5,9 @@
     'To copy my ComboBox in another form
     Public selectedValue As Object
 
-    Public song = "C:\Users\Fe Adornado\source\repos\WindowsApp5\Play\RAHHHH.wav"
-    Public special = "C:\Users\Fe Adornado\source\repos\WindowsApp5\Play\King Gnu SPECIALZ.wav"
-    Public bad = "C:\Users\Fe Adornado\source\repos\WindowsApp5\Play\The Lorax How Bad Can I Be Meme Template.wav"
-    Public lullaby = "C:\Users\Fe Adornado\source\repos\WindowsApp5\Play\videoplayback.wav"
+    Public song As String = ".\Play\RAHHHH.wav"
+    Public special As String = ".\Play\King Gnu SPECIALZ.wav"
+    Public bad As String = ".\Play\The Lorax How Bad Can I Be Meme Template.wav"
+    Public lullaby As String = ".\Play\videoplayback.wav"
+
 End Module

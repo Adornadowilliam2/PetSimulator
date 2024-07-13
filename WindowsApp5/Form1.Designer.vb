@@ -25,11 +25,11 @@ Partial Class Form1
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnView = New System.Windows.Forms.Button()
         Me.btnPlay = New System.Windows.Forms.Button()
         Me.btnAdapt = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -69,6 +69,17 @@ Partial Class Form1
         Me.Label1.Size = New System.Drawing.Size(299, 135)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "PETS"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Image = Global.WindowsApp5.My.Resources.Resources.bgPets
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 107)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(200, 173)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.TabStop = False
         '
         'btnExit
         '
@@ -116,22 +127,12 @@ Partial Class Form1
         Me.btnAdapt.Text = "Adopt"
         Me.btnAdapt.UseVisualStyleBackColor = False
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Image = Global.WindowsApp5.My.Resources.Resources.bgPets
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 107)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(200, 173)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(601, 409)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.MaximizeBox = False

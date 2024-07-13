@@ -64,6 +64,5 @@ Public Class Form6
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
         Form4.Show()
         Hide()
-        My.Computer.Audio.Play(song)
     End Sub
 End Class

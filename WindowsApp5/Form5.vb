@@ -283,7 +283,7 @@
     End Sub
     'Human Section
     Private Sub btnHuman_Click(sender As Object, e As EventArgs) Handles btnHuman.Click
-        My.Computer.Audio.Play(special)
+
         If cb = 0 Then
             Form4.PrgHungry.Value += 5
 

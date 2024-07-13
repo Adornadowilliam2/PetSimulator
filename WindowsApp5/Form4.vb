@@ -88,7 +88,7 @@
     End Sub
 
     Private Sub btnSleep_Click(sender As Object, e As EventArgs) Handles btnSleep.Click
-        My.Computer.Audio.Play(lullaby)
+
         Dim cb = ComboBox1.SelectedIndex
         If cb = 0 Then
             Form6.BackgroundImage = My.Resources.XBloop

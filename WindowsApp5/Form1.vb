@@ -43,54 +43,27 @@
     End Sub
 
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
-        'to close my form two times :)
+        ' Show confirmation dialog
         Dim result As DialogResult = MessageBox.Show("You want to quit?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
         If result = DialogResult.Yes Then
+            ' Unsubscribe from FormClosing event to prevent further checks
+            RemoveHandler Me.FormClosing, AddressOf Form1_FormClosing
+
             ' Close the application permanently
             Application.Exit()
         ElseIf result = DialogResult.No Then
-            'Cancel
+            ' Cancel closing the form
             e.Cancel = True
         End If
     End Sub
+
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         OpenGate()
         btnAdapt.Enabled = True
     End Sub
     Public Sub OpenGate()
-        'Form2.Pbresult.Image = Nothing
-        'Form2.ComboBox1.SelectedIndex = -1
-        'Form2.TextBox1.Text = ""
-        'Form3.Panel1.BackColor = Color.LightSkyBlue
-        'Form3.Panel2.BackColor = Color.LightBlue
-        'Form3.Panel3.BackColor = Color.LightBlue
-        'Form3.ProgressBar1.Visible = True
-        'Form3.ProgressBar2.Visible = True
-        'Form3.ProgressBar3.Visible = True
-        'Form3.Label5.Text = "Hungry Level:"
-        'Form3.Label6.Text = "Energy Level:"
-        'Form3.Label7.Text = "Happines Level:"
-        ''Erase all my form
-        'Form3.ComboBox1.SelectedIndex = -1
-        'Form3.TextBox2.ForeColor = Color.Green
-        'Form3.TextBox2.Text = "Alive"
-        'Form3.TextBox1.Text = ""
-        'Button1.Enabled = False
-        'btnView.Enabled = False
-        'btnPlay.Enabled = False
-        'Form3.Panel1.Visible = False
-        'Form4.Panel1.Visible = False
-        'Form4.Panel2.Visible = False
-        'Form4.Panel3.Visible = False
-        'Form4.Panel4.Visible = False
-        'Form2.lb1.Text = "•__________"
-        'Form2.lb2.Text = "•__________"
-        'Form2.lb3.Text = "•__________"
-        'Form2.lb4.Text = "•__________"
-        'Form2.lb5.Text = "•__________"
-        'Form2.lb6.Text = "•__________"
         Form2.Dispose()
         Form3.Dispose()
         Form4.Dispose()
@@ -100,5 +73,9 @@
 
     Public Sub InvisibleButton()
         Button1.Visible = False
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
     End Sub
 End Class
